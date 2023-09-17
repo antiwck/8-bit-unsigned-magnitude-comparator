@@ -7,7 +7,7 @@ The comparator consists of two cascaded 4-bit comparators that is made up of fou
 
 <br />
 <p align="center">
-  <img src="Sources/4-bit comparator design.png"><br />
+  <img src="Sources/4-bit comparator design.jpg"><br />
   4-bit comparator Design
 </p>
 <br />
@@ -18,7 +18,7 @@ As shown in the diagram, the outputs are A <= B, A >= B, and A = B. The circuit 
   
 <br />
 <p align="center">
-  <img src="Sources/8-bit comparator design.png"/><br />
+  <img src="Sources/8-bit comparator design.jpg"/><br />
   8-bit comparator design
 </p>
 <br />
@@ -28,7 +28,7 @@ The 8-bit comparator is made up of series arranged 4-bit comparators to compute 
 
 <br />
 <p align="center">
-  <img src="Sources/Truth Table.png"/><br />
+  <img src="Sources/Truth Table.jpg"/><br />
   Truth table
 </p>
 <br />
@@ -38,7 +38,7 @@ The truth table shows the effective logic behind the magnitude comparator, where
 
 <br />
 <p align="center">
-  <img src="Sources/Result1.png"/><br />
+  <img src="Sources/Result1.jpg"/><br />
   Result computation 2
 </p>
 <br />
@@ -52,7 +52,7 @@ aLargerBout   : 0  <br />
 
 <br />
 <p align="center">
-  <img src="Sources/Result2.png"/><br />
+  <img src="Sources/Result2.jpg"/><br />
   Result computation 2
 </p>
 <br />
@@ -66,7 +66,7 @@ aLargerBout   : 1  <br />
 
 <br />
 <p align="center">
-  <img src="Sources/Result3.png"/><br />
+  <img src="Sources/Result3.jpg"/><br />
   Result computation 3
 </p>
 <br />
