@@ -10,18 +10,17 @@ The comparator consists of two cascaded 4-bit comparators that is made up of fou
   <img src="Sources/4-bit comparator design.jpg"><br />
   4-bit comparator Design
 </p>
-<br />
 The 4-bit comparator is made up of series arranged full adders that uses logic gate to compute the magnitude comparison.
 <br />
 As shown in the diagram, the outputs are A <= B, A >= B, and A = B. The circuit design will produce all 1's when the input A and b are equal. Hence, this design is manipulated to compute only A < B/, A > B, and A = B.
 <br />
-  
+
+<br />
 <br />
 <p align="center">
   <img src="Sources/8-bit comparator design.jpg"/><br />
   8-bit comparator design
 </p>
-<br />
 <br />
 The 8-bit comparator is made up of series arranged 4-bit comparators to compute the magnitude comparison.
 <br />
