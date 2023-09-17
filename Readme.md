@@ -21,7 +21,6 @@ As shown in the diagram, the outputs are A <= B, A >= B, and A = B. The circuit 
   <img src="Sources/8-bit comparator design.jpg"/><br />
   8-bit comparator design
 </p>
-<br />
 The 8-bit comparator is made up of series arranged 4-bit comparators to compute the magnitude comparison.
 <br />
 
@@ -30,8 +29,6 @@ The 8-bit comparator is made up of series arranged 4-bit comparators to compute 
   <img src="Sources/Truth Table.jpg"/><br />
   Truth table
 </p>
-<br />
-<br />
 The truth table shows the effective logic behind the magnitude comparator, where the comparison and cascade play a role in determining the comparison.
 <br />
 
@@ -40,7 +37,6 @@ The truth table shows the effective logic behind the magnitude comparator, where
   <img src="Sources/Result1.jpg"/><br />
   Result computation 2
 </p>
-<br />
 Second computation:<br />
 First number  : 10111001 (185)<br />
 Second number : 10111001 (185)<br />
@@ -52,7 +48,6 @@ Result        : A = B         <br />
   <img src="Sources/Result2.jpg"/><br />
   Result computation 2
 </p>
-<br />
 Second computation:<br />
 First number  : 00111000 (56)<br />
 Second number : 00011100 (28)<br />
@@ -64,7 +59,6 @@ Result        : A > B        <br />
   <img src="Sources/Result3.jpg"/><br />
   Result computation 3
 </p>
-<br />
 Third computation:<br />
 First number  : 01011000 (88)<br />
 Second number : 01100100 (100)<br />
