@@ -1,0 +1,57 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity EightBitComparatorTestBench is
+end EightBitComparatorTestBench;
+
+architecture Behavioral of EightBitComparatorTestBench is
+	 
+	component EightBitcomparator is
+	port (
+		a 			: in std_logic_vector(7 downto 0);
+		b 			: in std_logic_vector(7 downto 0);
+		aLesserB	: out std_logic;
+		aEqualsB	: out std_logic;
+		aLargerB	: out std_logic
+	);
+	end component;
+
+	signal a, b 								: std_logic_vector(7 downto 0);
+	signal aLesserB, aEqualsB, aLargerB	: std_logic;
+	 
+begin
+
+	UUT: EightBitcomparator port map (
+		a 			=> a,
+		b 			=> b,
+		aLesserB	=> aLesserB,
+		aEqualsB	=> aEqualsB,
+		aLargerB	=> aLargerB
+	);
+
+	input_process: process
+	begin
+		a <= "10111001"; 	-- 185
+		b <= "10111001";	-- 185
+		-- aLesserBout : 0
+		-- aEqualsBout	: 1
+		-- aLargerBout : 0
+		wait for 10 ns;
+		
+		a <= "00111000"; 	-- 56
+		b <= "00011100";	-- 28
+		-- aLesserBout : 0
+		-- aEqualsBout	: 0
+		-- aLargerBout : 1
+		wait for 10 ns;
+		
+		a <= "01011000"; 	-- 88
+		b <= "01100100";	-- 100
+		-- aLesserBout : 1
+		-- aEqualsBout	: 0
+		-- aLargerBout : 0
+		wait for 10 ns;
+	end process;
+	 
+end Behavioral;
+
