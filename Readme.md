@@ -44,9 +44,7 @@ The truth table shows the effective logic behind the magnitude comparator, where
 Second computation:<br />
 First number  : 10111001 (185)<br />
 Second number : 10111001 (185)<br />
-aLesserBout   : 0  <br />
-aEqualsBout	  : 1  <br />
-aLargerBout   : 0  <br />
+Result        : A = B         <br />
 <br />
 
 <br />
@@ -58,9 +56,7 @@ aLargerBout   : 0  <br />
 Second computation:<br />
 First number  : 00111000 (56)<br />
 Second number : 00011100 (28)<br />
-aLesserBout   : 0  <br />
-aEqualsBout	  : 0  <br />
-aLargerBout   : 1  <br />
+Result        : A > B        <br />
 <br />
 
 <br />
@@ -72,7 +68,5 @@ aLargerBout   : 1  <br />
 Third computation:<br />
 First number  : 01011000 (88)<br />
 Second number : 01100100 (100)<br />
-aLesserBout   : 1  <br />
-aEqualsBout	  : 0  <br />
-aLargerBout   : 0  <br />
+Result        : A < B         <br />
 <br />
